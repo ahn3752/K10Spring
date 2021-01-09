@@ -92,6 +92,10 @@ public class FileuploadController {
 				File directory = new File(path);
 				if(!directory.isDirectory()) {
 					directory.mkdirs();
+					/*
+					 mkdir() 한 번에 하나의 디렉토리만 생성.
+					 mkdirs() 한 번에 여러 디렉토리를 생성.
+*/
 				}
 				
 				//업로드폼의 file필드 갯수만큼 반복
