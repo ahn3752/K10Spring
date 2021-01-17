@@ -154,6 +154,28 @@
 		<a href="./service/myService.do">바로가기1</a>
 	</li>
 	
+	<!-- 컨트롤러 : TransactionController -->
+	<h3>트랜잭션(Transaction)</h3>
+	<li>
+		<a href="transaction/buyTicketMain.do" target="_blank">
+			티켓구매하기1
+		</a>
+	</li>
+		<!-- 컨트롤러 : TransactionController -->
+		<!-- 2단계에서는 1단계의 컨트롤러 부분은 주석처리됨.  -->
+	<h3>트랜잭션(Transaction)</h3>
+	<li>
+		<a href="transaction/buyTicketTpl.do" target="_blank">
+			티켓구매하기2
+		</a>
+	</li>
+	
+	<h3>JSON 사용하기(RestAPI)</h3>
+	<li>
+		<a href="./jsonUse/jsonView.do" target="_blank">
+			@ResponseBody 어노테이션을 이용한 JSON데이터 보기
+		</a>
+	</li>
 </div>
 </body>
 </html>

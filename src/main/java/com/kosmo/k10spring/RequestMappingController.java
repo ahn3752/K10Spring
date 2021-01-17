@@ -48,8 +48,7 @@ public class RequestMappingController {
 				-model객체에 데이터 저장 : 참조변수.addObject("속성명", "속성값")
 				최종적으로 뷰를 호출할땐 ModelAndView 참조변수를 return한다.
 	*/
-	@RequestMapping(method=RequestMethod.POST,
-			value="/requestMapping/postLogin.do")
+	@RequestMapping(method=RequestMethod.POST, value="/requestMapping/postLogin.do")
 	public ModelAndView postLogin(
 			@RequestParam("user_id") String id,
 			@RequestParam("user_pw") String pw
